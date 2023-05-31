@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="close-big-grow" transform="translate(-1874 -25)">
+    <circle id="椭圆_26" data-name="椭圆 26" cx="18" cy="18" r="18" transform="translate(1874 25)" fill="rgba(255,255,255,0)"/>
+    <g id="关闭02" transform="translate(1754.872 -94.128)">
+      <path id="路径_408" data-name="路径 408" d="M128.842,147.128a.912.912,0,0,1-.641-.266.9.9,0,0,1,0-1.283l18.139-18.161a.907.907,0,1,1,1.282,1.283l-18.139,18.161A.912.912,0,0,1,128.842,147.128Z" transform="translate(-0.782 0)" fill="#fff"/>
+      <path id="路径_409" data-name="路径 409" d="M146.2,147.128a.912.912,0,0,1-.641-.266L127.417,128.7a.908.908,0,1,1,1.282-1.283l18.139,18.161a.9.9,0,0,1,0,1.283A.913.913,0,0,1,146.2,147.128Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,173 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-weight: 300;
+  background-image: url(../background-max.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  font-weight: 300;
+  
+}
+
+.main .bg {
+  height: 100%;
+  background-image: url(../background-middle.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main .form {
+  padding: 50px 20px;
+  background: rgba(35, 34, 34);
+}
+
+.main .form .title {
+  font-size: 20px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.main .form .title::after,
+.main .form .title::before {
+  content: ' ';
+  position: absolute;
+  background: rgba(204, 204, 204, 0.5);
+}
+
+
+.main .form .title::after {
+  left: 0;
+  top: -14px;
+  width: 100px;
+  height: 1px;
+}
+
+.main .form .title::before {
+  left: -20px;
+  top: -14px;
+  width: 1px;
+  height: 40px;
+}
+
+.main .form .sub_title {
+  margin: 20px 0;
+}
+
+.form-label {
+  margin-bottom: .2rem;
+  font-size: 14px;
+}
+
+.form-control {
+  padding: 0.3rem 0.75rem;
+  font-size: 14px;
+}
+
+.form-label.required::after {
+  content: ' *';
+  color: red;
+}
+
+.btn-outline-white {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+
+.btn {
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+
+.btn-outline-white:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.hr_border {
+  width: 100%;
+  height: 5px;
+  background-image: url(../decorate-line.svg);
+  background-size: cover;
+}
+
+.botton_btns {
+  color: #ccc;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.botton_btns .button {
+  cursor: pointer;
+}
+
+.vr_margin {
+  margin: 0 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .border_line {
+  width: 80%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+footer .border_line:after {
+  position: absolute;
+  top: 27px;
+  left: 40px;
+  content: ' ';
+  width: 80px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(45deg);
+}
+
+footer .declaration {
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: right;
+  padding: 0 10px;
+ 
+}
+
+footer a {
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .main {
+    transform: scale(.8);
+  }
+}
