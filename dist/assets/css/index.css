@@ -91,6 +91,10 @@ html {
   border-radius: .2rem;
 }
 
+.form-check-inline {
+  margin-right: .5rem;
+}
+
 .form-control,
 .form-select {
   padding: 0.2rem 0.4rem !important;
