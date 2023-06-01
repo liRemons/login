@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/register.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="main">
+      <div class="bg"></div>
+      <div class="form">
+        <div class="title">云审查平台 
+          <img src="../dist/assets/return-big-grow.svg" alt="">
+        </div>
+        <div class="sub_title">
+          账户注册
+          <span></span>
+        </div>
+        <div class="row g-3 mb-2">
+          <div class="col mr-2">
+            <label for="formGroupExampleInput" class="form-label required">身份证(登录账号)</label>
+            <input type="text" class="form-control" placeholder="请输入身份证" aria-label="First name">
+          </div>
+          <div class="col ml-2">
+            <label for="formGroupExampleInput" class="form-label">单位</label>
+            <div class="input-group input-group-sm">
+              <span class="input-group-text">
+                <i class="bi bi-hospital text-primary"></i>
+              </span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 mb-2">
+          <div class="col mr-2">
+            <div class="row g-3">
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">姓名(用户名)</label>
+                <input type="text" class="form-control" placeholder="请输入姓名" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">性别</label>
+                <div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option1" checked> <label
+                      class="form-check-label" for="exampleRadios1"> 男
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
+                    <label class="form-check-label" for="exampleRadios1">
+                      女
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col ml-2">
+            <div class="row g-3">
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">单位信用代码</label>
+                <input type="text" class="form-control" placeholder="请输入姓名" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">是否在职</label>
+                <div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option1" checked> <label
+                      class="form-check-label" for="exampleRadios1"> 是
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
+                    <label class="form-check-label" for="exampleRadios1">
+                      否
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row g-3 mb-2">
+          <div class="col mr-2">
+            <label for="exampleFormControlInput1" class="form-label required">密码</label>
+            <input type="text" class="form-control" id="accout" placeholder="请输入密码">
+          </div>
+          <div class="col ml-2">
+            <div class="row g-3">
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">邮箱</label>
+                <input type="email" class="form-control" placeholder="请输入邮箱" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="exampleFormControlTextarea1" class="form-label verification_code">获取验证码</label>
+                <input type="text" class="form-control" placeholder="输入邮箱验证码" aria-label="First name">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 mb-2">
+          <div class="col mr-2">
+            <label for="exampleFormControlInput1" class="form-label required">确认密码</label>
+            <input type="text" class="form-control" id="accout" placeholder="请输入确认密码">
+          </div>
+          <div class="col ml-2">
+            <div class="row g-3">
+              <div class="col">
+                <label for="formGroupExampleInput" class="form-label required">手机号</label>
+                <input type="text" class="form-control" placeholder="请输入手机号" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <div class="reset">
+                  <div class="reset_border"></div>
+                  <span class="text">注册！</span>
+                  <div class="reset_btn"><i class="bi bi-airplane text-light"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="border_line"></div>
+    <div class="declaration">
+      <a>法律声明</a>
+      <a>联系我们</a>
+    </div>
+    <div class="copyright">
+      <a>© 2023 Microsoft</a>
+      <a>11111 号</a>
+      <a><img src="./assets/police-insignia.svg" alt=""> 网备案</a>
+    </div>
+  </footer>
+  </div>
+</body>
+
+</html>
