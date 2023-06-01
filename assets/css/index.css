@@ -10,6 +10,10 @@ body {
   position: relative;
 }
 
+html {
+  font-size: 19.20px;
+}
+
 #container {
   display: flex;
   height: 100%;
@@ -19,11 +23,11 @@ body {
 }
 
 .main {
-  width: 1200px;
-  height: 550px;
+  width: 60rem;
+  height: 28rem;
   display: flex;
   font-weight: 300;
-  
+
 }
 
 .main .bg {
@@ -34,13 +38,13 @@ body {
 }
 
 .main .form {
-  padding: 50px 20px;
+  padding: 2.5rem 1rem;
   background: rgba(35, 34, 34);
 }
 
 .main .form .title {
-  font-size: 20px;
-  margin-left: 30px;
+  font-size: 1rem;
+  margin-left: 1.5rem;
   position: relative;
 }
 
@@ -54,30 +58,30 @@ body {
 
 .main .form .title::after {
   left: 0;
-  top: -14px;
-  width: 100px;
+  top: -.8rem;
+  width: 5rem;
   height: 1px;
 }
 
 .main .form .title::before {
-  left: -20px;
-  top: -14px;
+  left: -1rem;
+  top: -.8rem;
   width: 1px;
-  height: 40px;
+  height: 2rem;
 }
 
 .main .form .sub_title {
-  margin: 20px 0;
+  margin: .8rem 0;
 }
 
 .form-label {
   margin-bottom: .2rem;
-  font-size: 14px;
+  font-size: .7rem;
 }
 
 .form-control {
-  padding: 0.3rem 0.75rem;
-  font-size: 14px;
+  padding: 0.3rem 0.4rem;
+  font-size: .6rem;
 }
 
 .form-label.required::after {
@@ -92,7 +96,7 @@ body {
 
 
 .btn {
-  letter-spacing: 10px;
+  letter-spacing: .5rem;
   font-weight: 300;
 }
 
@@ -104,7 +108,7 @@ body {
 
 .hr_border {
   width: 100%;
-  height: 5px;
+  height: .3rem;
   background-image: url(../decorate-line.svg);
   background-size: cover;
 }
@@ -112,8 +116,8 @@ body {
 .botton_btns {
   color: #ccc;
   text-align: center;
-  line-height: 30px;
-  font-size: 14px;
+  line-height: 1.5rem;
+  font-size: .7rem;
 }
 
 .botton_btns .button {
@@ -121,15 +125,15 @@ body {
 }
 
 .vr_margin {
-  margin: 0 20px;
+  margin: 0 1rem;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  font-size: 12px;
-  padding: 20px 0;
+  font-size: .7rem;
+  padding: .6rem 0;
 }
 
 footer .border_line {
@@ -141,33 +145,38 @@ footer .border_line {
 
 footer .border_line:after {
   position: absolute;
-  top: 27px;
-  left: 40px;
+  top: 1.45rem;
+  left: 2rem;
   content: ' ';
-  width: 80px;
+  width: 4rem;
   height: 1px;
   background: rgba(255, 255, 255, 0.5);
   transform: rotate(45deg);
 }
 
 footer .declaration {
-  margin-left: 130px;
-  margin-top: 30px;
+  margin-left: 10rem;
+  margin-top: .8rem;
 }
 
 .copyright {
   text-align: right;
-  padding: 0 10px;
- 
+  padding: 0 .5rem;
+
 }
 
 footer a {
   cursor: pointer;
-  padding-right: 20px;
+  padding-right: 1rem;
+}
+
+.btn {
+  padding: .4rem .3rem;
+  font-size: .7rem;
 }
 
 @media screen and (max-width: 1400px) {
   .main {
-    transform: scale(.8);
+    /* transform: scale(.8); */
   }
 }
